@@ -1,0 +1,144 @@
+
+body {
+  padding: auto 4%;
+  font-family: "Meiryo";
+  color: #383E45;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 120px;
+  padding-left: 230px;
+}
+
+nav {
+  display: flex;
+  padding-right: 230px;
+  margin: auto 0;
+}
+
+nav > a {
+  font-size: 14.4px;
+  color: #24292E;
+  text-decoration: none;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+/* main */
+#main-photo {
+  max-height: 600px;
+  width: 100%;
+}
+/* section */
+
+main {
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  border-bottom: solid 2px black;
+  display: inline-block;
+  margin: 65px auto;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+}
+
+#about-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+}
+
+#about-right {
+  width: 400px
+}
+
+#about-right > h3 {
+  font-weight: bold;
+  text-align: left;
+}
+
+#about-right > p {
+  font-weight: 14.4px;
+  text-align: left;
+}
+/* bicycle */
+#bicycle {
+  display: flex;
+  justify-content: center;
+}
+
+.pic {
+  width: 260px;
+  margin: 0 10px;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  padding-bottom: 0;
+  font-size: 10px;
+  vertical-align: baseline;
+  margin-bottom: 0;
+}
+
+/* responsive design for sp*/
+
+@media screen and (max-width: 667px) {
+
+body {
+  padding: 0;
+}
+
+#logo {
+  padding-left: 10px;
+}
+
+nav {
+  padding-right: 10px;
+}
+
+#main-photo {
+  overflow-x: hidden;
+  width: 600px;
+  padding: 0;
+}
+
+#about {
+  display: block;
+}
+
+#about-photo {
+  margin-right: 0px;
+}
+
+#about-right > h3 {
+  text-align: center;
+}
+
+#about-right > p {
+  text-align: center;
+  margin: auto 5px;
+}
+
+#bicycle {
+  display: block;
+}
+
+
+
+  
+
+}
