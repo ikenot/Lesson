@@ -1,0 +1,162 @@
+
+body {
+  background-color: #F4F9FF;
+  font-style: "Meiryo";
+  color: #333333;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#body {
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* header */
+header {
+  height: 0;
+}
+
+
+#logo {
+  width: 150px;
+  text-align: left;
+  margin-top: 15px;  
+}
+
+/* main image */
+#div-image {
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+#main-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+/* section one */
+#section-one {
+  background-color: #FFFFFF;
+  width: 1000px;
+}
+
+h2 {
+  font-weight: bold;
+  padding-top: 40px;
+  text-align: left;
+  margin-left: 200px;
+}
+
+ol {
+  padding-bottom: 40px;
+  margin-left: 180px;
+}
+
+
+/* section two */
+#div-detail-image, #div-right {
+  margin: 20px;
+}
+
+#parent {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+
+#detail-image {
+  width: 270px;
+}
+
+#div-right {
+  width: 270px;
+}
+
+h3 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+
+dl {
+  border-top:solid 2px grey;
+  border-bottom: solid 2px grey;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+dt, dd {
+  margin: 0;
+  padding: 0  10px;
+}
+
+dd {
+  width: 180px;
+}
+
+#div-right > a, p {
+  text-align: left;
+}
+
+#div-right > a {
+  text-decoration: underline;
+}
+
+/* footer */
+footer > p {
+  text-align: left;
+  margin-left: 200px;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 1023px) {
+
+#body {
+  max-width: 100%;
+  margin: 0;
+}
+
+#div-image {
+  width: 100%;
+}
+
+#section-one {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  margin-left: 0;
+}
+
+#one {
+  display: flex;
+  justify-content: center;
+  text-align: none;
+  margin-left: 0;
+}
+
+ol {
+  margin-left: 0;
+}
+
+#parent {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+footer > P {
+  margin-left: 0;
+}
+
+}
