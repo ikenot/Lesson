@@ -6,7 +6,6 @@
   <title>flower festival</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style.css.map">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Noto+Sans+JP&family=Noto+Serif+JP&family=Source+Sans+3:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
@@ -14,44 +13,59 @@
 
 </head>
 <body>
-  <header>
+
+  <header id="index.html">
     <div class="header__logo">
-      <a class="header__logo--anchor" href="index.html">FA EXHIBITION</a>
+      <a class="header__logo--anchor" href="#index.html">FA EXHIBITION</a>
     </div>
-    <div class="header__humberger">
-      <div class="header__humberger--container">
-        <ul class="header__humberger--parent">
-          <li class="header__humberger--child"><a href="index.html">TOP</a></li>
-          <li class="header__humberger--child"><a href="index.html#information">INFORMATION</a></a></li>
-          <li class="header__humberger--child"><a href="index.html#gallery">GALLERY</a></li>
-          <li class="header__humberger--child"><a href="index.html#access">ACCESS</a></li>
-          <li class="header__humberger--child"><a href="index.html#contact">CONTACT</a></li>
-        </ul>
-        <button class="header__humberger--close">X</button>
+
+    <div class="header__hamberger">
+      <div class="p-hamburger">
+        <span class="p-hamburger-line"></span>
+        <span class="p-hamburger-line"></span>
+        <span class="p-hamburger-line"></span>
+      </div>
+      <!-- <div class="header__hamberger--container">
+        <button class="header__hamberger--menu">&#9776;</button>
+        <button class="header__hamberger--cross">&#735;</button> -->
+        <div class="header__hamberger--list">
+          <ul class="header__hamberger--parent">
+            <a href="#index.html"><li class="header__hamberger--child">TOP</li></a>
+            <a href="#information"><li class="header__hamberger--child">INFORMATION</li></a>
+            <a href="#gallery"><li class="header__hamberger--child">GALLERY</li></a>
+            <a href="#access"><li class="header__hamberger--child">ACCESS</li></a>
+            <a href="#contact"><li class="header__hamberger--child">CONTACT</li></a>
+          </ul>
+        </div>
       </div>
     </div>
     <section>
       <div class="navigation__container">
         <div class="navigation__container--parent">
-          <a class="navigation__container--child" href="index.html">FOR VISITOR</a>
-          <a class="navigation__container--child" href="index.html">FOR EXHIBITOR</a>
-        </ul>
+          <a class="navigation__container--child" href="#index.html">FOR VISITOR</a>
+          <a class="navigation__container--child" href="#index.html">FOR EXHIBITOR</a>
       </div>
     </section>
   </header>
 
   <main>
     <section>
-      <div class="main__image">
-        <div class="main__image--container">
-          <img class="main__image--left" src="img/mainvisual1.jpg">
+      <!-- <div class="main__image">
+        <div id="main__image--left" style="background-image: url(img/mainvisual1.jpg);">
         </div>
-        <div class="main__image--container">
-          <img class="main__image--center" src="img/mainvisual2.jpg">
+        <div id="main__image--center" style="background-image: url(img/mainvisual2.jpg);">
         </div>
-        <div class="main__image--container">
-          <img class="main__image--right" src="img/mainvisual3.jpg">
+        <div id="main__image--right" style="background-image: url(img/mainvisual3.jpg);">
+        </div> -->
+        <div class="main__image">
+          <div class="main__image--item" style="background-image: url(img/mainvisual1.jpg);">
+          </div>
+          <div class="main__image--item" style="background-image: url(img/mainvisual2.jpg);">
+          </div>
+          <div class="main__image--item" style="background-image: url(img/mainvisual3.jpg);">
+          </div>
         </div>
+
       </div>
     </section>
     <section>
@@ -61,7 +75,7 @@
     </section>
     <section id="information">
       <div class="information __container">
-        <h2 class="class__title">INFORMATION</h2>
+        <h2 class="class__title--fadein">INFORMATION</h2>
         <p class="information__en">2021 JUL 1(THU)-3(SAT)</p>
         <p class="information__en">DAY1 10am-6pm OTHER 10am-5:30pm</p>
         <h3 class="information__place">at PARK SIDE HALL</h3>
@@ -71,7 +85,7 @@
     </section>
     <section id="gallery">
       <div class="gallery__container">
-        <h2 class="class__title">GALLERY</h2>
+        <h2 class="class__title--fadein">GALLERY</h2>
         <div class="gallery__list">
             <img class="gallery__list--leftchild" src="img/flower1.jpg">
             <img class="gallery__list--rightchild" src="img/flower2.jpg">
@@ -82,9 +96,8 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="center__image--section">
       <div class="center__image">
-        <img class="center__image--photo" src="img/bg.jpg">
       </div>
     </section>
     <section id="access">
@@ -93,18 +106,18 @@
         <h3 class="access__detail--building">PARK SIDE HALL</h3>
         <p class="access__detail--address">〒123-3456　東京都目黒区自由が丘1-1-1 PARK SIDE HALL<br>PARK SIDE HALL, 1-1-1 Jiugaoka, Meguro-ku, Tokyo</p>
         <p class="access__detail--contact">Tel:03-1111-1111<br>E-mail: info@casdcsd.jp</p>
-        <a class="access__detail--map" href="index.html">GOOGLE MAP</a>
+        <a class="access__detail--map" href="#index.html">GOOGLE MAP</a>
       </div>
     </section>
     <section id="contact">
       <div class="contact__container">
         <h2 class="class__title">CONTACT</h2><br>
         <div class="contact__link--first">
-          <a class="contact__link--anchor" href="index.html">出店に関するお問い合わせ</a>
+          <a class="contact__link--anchor" href="#index.html">出店に関するお問い合わせ</a>
           <p class="contact__link--arrow"></p>
         </div><br>
         <div class="contact__link--second">
-          <a class="contact__link--anchor" href="index.html">その他お問い合わせ</a>
+          <a class="contact__link--anchor" href="#index.html">その他お問い合わせ</a>
           <p class="contact__link--arrow"></p>
         </div>
       </div>
@@ -119,21 +132,20 @@
         <p class="footer__left--text">E-mail: info@casdcsd.jp</p>
       </div>
       <div class="footer__left--sns">
-        <a class="footer__left--snschild" href="index.html">Twitter</a>
-        <a class="footer__left--snschild" href="index.html">facebook</a>
-        <a class="footer__left--snschild" href="index.html">instagram</a>
+        <a class="footer__left--snschild" href="#index.html">Twitter</a>
+        <a class="footer__left--snschild" href="#index.html">facebook</a>
+        <a class="footer__left--snschild" href="#index.html">instagram</a>
       </div>
     </div>
     <div class="footer__right--container">
       <div class="footer__right--parent">
-        <p class="footer__right--child"><a href="index.html">PRIVACY POLICY</a></p>
+        <p class="footer__right--child"><a href="#index.html">PRIVACY POLICY</a></p>
         <p class="footer__right--child">&copy;FA EXHIBITION</p>
       </div>
     </div>
   </footer>
 
 
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>  <script src="script.js"></script>
 </body>
 </html>
