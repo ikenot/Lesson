@@ -417,22 +417,22 @@ body {
     right: auto;
   }
 
+  // title
   .title {
     margin: 100px auto 30px auto;
   }
   .title__headline {
     font-size: 8vw;
   }
-
   .class__title, .class__title--fadein {
     font-size: 7vw;
   }
 
+  // gallery
   #gallery {
     margin: auto;
     width: 80%;
   }
-
   .gallery__list {
     &--leftchild, &--rightchild {
       width: 100%;

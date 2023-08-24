@@ -123,7 +123,7 @@ $(function (){
   //     });
   //   }
   // });
-  // mainImage
+ 
   // $(window).scroll(function () {
   //   var scrollY = $(window).scrollTop();
   //   var bgSize = (100 / 3) + (scrollY / 5);
@@ -132,13 +132,12 @@ $(function (){
   //   }
   // });
 
+ // mainImage
   $(function() {
     if (window.matchMedia("(max-width: 899px)").matches) {
       $(window).scroll(function () {
         var scrollY = $(window).scrollTop();
         var bgSize = 100 - (scrollY / 5);
-        var centerX = 50 + (scrollY / 10);
-        var sideX = 50 - (scrollY / 10);
         if (bgSize < 34) {
           $('.main__image--item').css('width', '34%');
         } else {
