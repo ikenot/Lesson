@@ -15,7 +15,7 @@
 <body>
   <header id="index.html">
     <div class="header__logo">
-      <a href="#index.html"><img class="header__logo--image" src="img/logo-r.svg" alt="logo"></a>
+      <a href="#"><img class="header__logo--image" src="img/logo-r.svg" alt="logo"></a>
     </div>
     <div class="header__hamberger">
       <div class="header__hamberger--cross">
@@ -29,6 +29,7 @@
             <a href="#voice"><li class="header__hamberger--child">受講生の声</li></a>
             <a href="#overview"><li class="header__hamberger--child">スクールの概要</li></a>
           </ul>
+          <a href="#"><img class="header__logo--imagewhite" src="img/logo-w.svg" alt="logowhite"></a>
           <a class="header__hamberger--link" href="#index.html">無料体験に申し込み</a>
           <p class="header__hamberger--linkline"></p>
         </div>
@@ -66,13 +67,13 @@
             <img class="reason__content--image" src="img/icon-teacher.png" alt="pc">
             <div class="reason__content--container">
               <h2 class="reason__content--title">講師はネイティブ</h2>
-              <p class="reason__content--coment">お気に入りの講師が自由に選べる</p>
+              <p class="reason__content--coment">お気に入りの講師が自由に選べる!</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="voice">
+    <section id="voice__pc">
       <h2 class="voice__title">受講生の声</h2>
       <p class="voice__title--line"></p>    
       <div class="voice__item--left">
@@ -102,6 +103,38 @@
         <div class="voice__item--comment">
           <p class="voice__item--leftmessage">メッカモール、コップ持ってきてー。im so curious yeah</p>
         </div>
+      </div>    
+    </section>    
+    <section id="voice__sp">
+      <h2 class="voice__title">受講生の声</h2>
+      <p class="voice__title--line"></p>    
+      <div class="voice__item--left">
+        <div class="voice__item--comment">
+          <p class="voice__item--leftmessage">メッカモール、コップ持ってきてー。im so curious yeah</p>
+        </div>
+        <div class="voice__item--student">
+          <img class="voice__item--image" src="img/icon-student1.png" alt="student1">
+          <p class="voice__item--profile">OOOさん<br>大学生</p>
+        </div>
+      </div>    
+      <div class="voice__item--left">
+        <div class="voice__item--comment">
+          <p class="voice__item--leftmessage">メッカモール、コップ持ってきてー。im so curious yeah</p>
+        </div>
+        <div class="voice__item--student">
+          <img class="voice__item--image" src="img/icon-student2.png" alt="student1">
+          <p class="voice__item--profile">OOOさん<br>会社員</p>
+        </div>
+
+      </div>    
+      <div class="voice__item--left">
+        <div class="voice__item--student">
+        <div class="voice__item--comment">
+          <p class="voice__item--leftmessage">メッカモール、コップ持ってきてー。im so curious yeah</p>
+        </div>
+        <img class="voice__item--image" src="img/icon-student1.png" alt="student1">
+        <p class="voice__item--profile">OOOさん<br>自営業</p>
+      </div>
       </div>    
     </section>
     <section id="overview">
@@ -183,8 +216,13 @@
   </footer>
 
   
+  <!-- jQuery library -->
   <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  
+  <!-- Slick carousel library -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
+  <!-- Your custom script -->
   <script src="script.js"></script>
 </body>
 </html>
